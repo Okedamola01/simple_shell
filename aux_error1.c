@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * strcat_cd - function that concanates the message for cd error
+ * strcat_cd - function that concatenates the message for cd error
  *
  * @datash: data relevant (directory)
  * @msg: message to print
  * @error: output message
- * @ver_str: couter lines
+ * @ver_str: counter lines
  * Return: error message
  */
-
 char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {
 	char *illegal_flag;
@@ -142,5 +141,4 @@ char *error_exit_shell(data_shell *datash)
 	free(ver_str);
 
 	return (error);
-}
 }
